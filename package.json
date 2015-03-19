@@ -1,12 +1,12 @@
 {
   "name": "mongodb-avoid-inject",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "之前没有关注到mongodb注入问题，临时解决办法，检验请求中所有关键词。",
   "main": "index.js",
   "scripts": {
     "test": "grunt test"
   },
-  "author": "",
+  "author": "yisbug",
   "license": "ISC",
   "devDependencies": {
     "grunt": "^0.4.5",
@@ -14,5 +14,23 @@
     "grunt-shell": "^1.1.2",
     "restify": "^3.0.1",
     "should": "^5.2.0"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-coffee": "^0.13.0",
+    "restify": "^3.0.1",
+    "grunt-shell": "^1.1.2",
+    "should": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yisbug/mongodb-avoid-inject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yisbug/mongodb-avoid-inject/issues"
+  },
+  "homepage": "https://github.com/yisbug/mongodb-avoid-inject"
 }
